@@ -1,7 +1,8 @@
+// App.js
 import React, { useState } from 'react';
-import TransactionTable from './TransactionTable';
-import TransactionForm from './TransactionForm';
-import SearchBar from './SearchBar';
+import TransactionTable from './components/TransactionTable';
+import TransactionForm from './components/TransactionForm';
+import SearchBar from './components/SearchBar';
 
 const App = () => {
   const [transactions, setTransactions] = useState([]);
